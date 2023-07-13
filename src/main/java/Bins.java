@@ -31,10 +31,15 @@ public class Bins {
         totalRolls++;
     }
 
+    public Integer getBin(int sumNum) {
+        return theseBins.get(sumNum);
 
-    //getters and setters
+    }
 
+    public void setBin(int sumNum, int frequency) {
+        theseBins.replace(sumNum, frequency);
 
+    }
 
 
 }
