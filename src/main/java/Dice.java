@@ -11,7 +11,7 @@ public class Dice {
 
 
     public int tossAndSum() {
-
+        numRolled = 0;
         Random random = new Random();
         for (int i = 0; i < numOfDice; i++) {
             numRolled += random.nextInt(6) + 1;
